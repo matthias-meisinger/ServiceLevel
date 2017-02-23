@@ -6,9 +6,9 @@ class ServiceLevelPlugin extends MantisPlugin {
 		$this->description = 'Currently only advanced Evaluation of Issues';    # Short description of the plugin
 		$this->page = '';           # Default plugin page
 
-		$this->version = '0.2';     # Plugin version string
+		$this->version = '0.3';     # Plugin version string
 		$this->requires = array(    # Plugin dependencies, array of basename => version pairs
-            'MantisCore' => '1.2',  #   Should always depend on an appropriate version of MantisBT
+            'MantisCore' => '1.3',  #   Should always depend on an appropriate version of MantisBT
 		);
 
 		$this->author = 'Alexander Menk';         # Author/team name

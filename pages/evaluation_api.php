@@ -25,7 +25,7 @@
 /**
  * requires config_filter_defaults_include
  */
-require_once( $g_absolute_path . 'config_filter_defaults_inc.php' );
+require_once( $g_absolute_path . 'config_defaults_inc.php' );
 
 
 function evaluation_helper_print_row( $p_label, $p_open, $p_resolved, $p_closed, $p_total, $hidden_id = FALSE , $detail_ids = FALSE) {

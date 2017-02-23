@@ -26,7 +26,6 @@
 	require_once( 'core.php' );
 
 	require_once( 'core/summary_api.php' );
-	require_once( 'core/evaluation_api.php' );
 	require_once( 'core/date_api.php' );
 
 	access_ensure_project_level( config_get( 'view_summary_threshold' ) );
